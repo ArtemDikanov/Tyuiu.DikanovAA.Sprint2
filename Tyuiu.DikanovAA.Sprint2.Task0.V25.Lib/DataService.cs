@@ -11,7 +11,7 @@ namespace Tyuiu.DikanovAA.Sprint2.Task0.V25.Lib
             res[2] = y < x;
             res[3] = y > x;
             res[4] = x <= y;
-            res[5] = y >= x;
+            res[5] = y >= x;//
 
             return res;
             
