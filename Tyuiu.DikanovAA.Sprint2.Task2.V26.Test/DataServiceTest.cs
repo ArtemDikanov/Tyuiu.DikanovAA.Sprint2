@@ -1,5 +1,5 @@
-using Tyuiu.DikanovAA.Sprint2.Task2.V26.Lib;
-namespace Tyuiu.DikanovAA.Sprint2.Task2.V26.Test
+using Tyuiu.DikanovAA.Sprint2.Task1.V26.Lib;
+namespace Tyuiu.DikanovAA.Sprint2.Task1.V26.Test
 {
     [TestClass]
     public class DataServiceTest
