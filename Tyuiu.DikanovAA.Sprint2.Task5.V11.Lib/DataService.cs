@@ -89,9 +89,9 @@ namespace Tyuiu.DikanovAA.Sprint2.Task5.V11.Lib
             //string rn = n.ToString();
             //string rm = m.ToString();
             //string rg = g.ToString();
-            if (n < 10)
+            if (n < 10 & m < 10)
             {
-                date = "0" + n + "." + m + "." + g;
+                date = "0" + n + "." + "0" + m + "." + g;
             }
             else
             {
@@ -101,9 +101,9 @@ namespace Tyuiu.DikanovAA.Sprint2.Task5.V11.Lib
                 }
                 else
                 {
-                    if (n < 10 & m < 10)
+                    if (n < 10)
                     {
-                        date = "0" + n + "." + "0" + m + "." + g;
+                        date = "0" + n + "." + m + "." + g;
                     }
                     else
                     {
