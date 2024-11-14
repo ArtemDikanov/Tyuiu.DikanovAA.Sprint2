@@ -7,7 +7,7 @@ namespace Tyuiu.DikanovAA.Sprint2.Task6.V3.Lib
         {
             switch (value)
             {
-                case 1: return "Понедельник";
+                case 1: return "понедельник";
                 case 2: return "Вторник";
                 case 3: return "Среда";
                 case 4: return "Четверг";
