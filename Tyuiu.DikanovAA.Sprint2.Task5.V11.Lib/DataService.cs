@@ -89,7 +89,29 @@ namespace Tyuiu.DikanovAA.Sprint2.Task5.V11.Lib
             //string rn = n.ToString();
             //string rm = m.ToString();
             //string rg = g.ToString();
-            date = n + "." + m + "." + g;
+            if (n < 10)
+            {
+                date = "0" + n + "." + m + "." + g;
+            }
+            else
+            {
+                if (m < 10)
+                {
+                    date = n + "." + "0" + m + "." + g;
+                }
+                else
+                {
+                    if (n < 10 & m < 10)
+                    {
+                        date = "0" + n + "." + "0" + m + "." + g;
+                    }
+                    else
+                    {
+                        date = n + "." + m + "." + g;
+                    }
+                }
+            }
+
             return date;
             
 
